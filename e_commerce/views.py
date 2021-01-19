@@ -56,7 +56,7 @@ def login_page(request):
 
 def logout_page(request):
     context = {
-        "content": "Você efetuou o logout com suscesso! :)"
+        "content": "Você efetuou o logout com sucesso! :)"
     }
     logout(request)
     return render(request, "auth/logout.html", context)

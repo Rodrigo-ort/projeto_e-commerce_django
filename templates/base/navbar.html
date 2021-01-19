@@ -21,6 +21,24 @@
         <li class="nav-item {% if request.path == products_list_url %}active{% endif %}">
             <a class="nav-link" href="{{ products_list_url }}">Produtos</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Taxas de entrega</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cestas & Acessórios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Cestas de Café da Manhã</a>
+            <a class="dropdown-item" href="#">Cestas infantis</a>
+            <a class="dropdown-item" href="#">Cestas com Bebidas</a>
+            <a class="dropdown-item" href="#">Cestas infantis</a>
+            <a class="dropdown-item" href="#">CCestas de Aniversário</a>
+            <a class="dropdown-item" href="#">Cestas de Guloseimas</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Catálogo de Acessórios</a>
+          </div>
+        </li>
         {% if request.user.is_authenticated %}
             <li class="nav-item {% if request.path == login_url %}active{% endif %}">
                 <a class="nav-link" href="{{ logout_url }}">Logout</a>
