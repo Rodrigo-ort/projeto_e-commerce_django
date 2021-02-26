@@ -4,6 +4,13 @@ from products.models import Product
 
 class SearchProductView(ListView):
     template_name = "products/list.html"
-    def get_queryset(self, *args, **kargs):
+    def get_queryset(self, *args, **kwargs):
         request = self.request
-        return Product.objects.all()
+        print('Solicitação', request)
+        result = request.GET
+        print('Resultado: ', result)
+        query = result.get('q', None) # result['q']
+        print('Consulta', query)
+        if query is not None:
+            return Product.objects.filter(title__icontains = query)
+        return Product.objects.featured()
