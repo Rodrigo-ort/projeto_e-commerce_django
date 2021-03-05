@@ -21,8 +21,19 @@ Nossa motivação parte da importância que e-commerces tem para as empresas ult
 ??
 
 ## Integrantes do projeto: 
-Aurélio Vinícius
+Aurélio Vinícius 
 
-Katlen Karine
+Katlen Karine 
 
-Rodrigo.
+Rodrigo 
+
+## Solução para problemas identificados:
+??
+
+## Linguagens de programação: 
+
+Python, HTML, CSS, JavaScript.
+
+## Tecnologias: 
+
+Django, Bootstrap, SQLite.
