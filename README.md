@@ -36,8 +36,8 @@ Rodrigo
 
 ## Linguagens de programação: 
 
-Python, HTML, CSS, JavaScript.
+> Python, HTML, CSS, JavaScript.
 
 ## Tecnologias: 
 
-Django, Bootstrap, SQLite.
+> Django, Bootstrap, SQLite.
