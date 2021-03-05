@@ -4,9 +4,6 @@ O **E-commerce: CestasBSB** é um e-commerce desenvolvido para automatizar o pro
 
 Além disso, também tem o objetivo de apresentar os catálogos de uma forma mais inovadora para o público. Possibilitando agilidade e melhor fluxo de vendas aos colaboradores da empresa.
 
-## O que o E-commerce: CestasBSB é capaz de fazer
-??
-
 ## Motivação
 
 Nossa motivação parte da importância que e-commerces tem para as empresas ultimamente, em razão das pessoas buscarem por agilidade e facilidade no acesso a produtos diretamente de casa. 
@@ -15,14 +12,8 @@ Também nos motiva o fato de estar desenvolvendo o E-commerce para uma empresa d
 
 Além de estudarmos sobre o planejamento, desenvolvimento e aplicação de produtos de software para web.
 
-## Visão de negócio: 
-??
-
 ## Ambientes de desenvolvimento:
 > Visual Studio Code & PyCharm :computer:
-
-## Ferramentas para desenvolvimento: 
-??
 
 ## Integrantes do projeto: 
 Aurélio Vinícius 
@@ -30,9 +21,6 @@ Aurélio Vinícius
 Katlen Karine 
 
 Rodrigo 
-
-## Solução para problemas identificados:
-??
 
 ## Linguagens de programação: 
 
