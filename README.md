@@ -12,6 +12,9 @@ Também nos motiva o fato de estar desenvolvendo o E-commerce para uma empresa d
 
 Além de estudarmos sobre o planejamento, desenvolvimento e aplicação de produtos de software para web.
 
+## Visão de negócio: 
+Com um e-commerce a empresa ganha vantagem competitiva no mercado e impulsiona o desempenho nas vendas, além de maior reconhecimento pelos clientes.
+
 ## Ambientes de desenvolvimento:
 > Visual Studio Code & PyCharm :computer:
 
