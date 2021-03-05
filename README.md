@@ -18,13 +18,6 @@ Além de estudarmos sobre o planejamento, desenvolvimento e aplicação de produ
 ## Ferramentas para desenvolvimento: 
 > HTML, CSS
 
-## Integrantes do projeto: 
-Aurélio Vinícius 
-
-Katlen Karine 
-
-Rodrigo 
-
 ## Linguagens de programação: 
 
 > Python, JavaScript
@@ -32,3 +25,10 @@ Rodrigo
 ## Tecnologias: 
 
 > Django, Bootstrap, SQLite.
+
+## Integrantes do projeto: 
+Aurélio Vinícius 
+
+Katlen Karine 
+
+Rodrigo 
