@@ -15,6 +15,9 @@ Além de estudarmos sobre o planejamento, desenvolvimento e aplicação de produ
 ## Ambientes de desenvolvimento:
 > Visual Studio Code & PyCharm :computer:
 
+## Ferramentas para desenvolvimento: 
+> HTML, CSS
+
 ## Integrantes do projeto: 
 Aurélio Vinícius 
 
@@ -24,7 +27,7 @@ Rodrigo
 
 ## Linguagens de programação: 
 
-> Python, HTML, CSS, JavaScript.
+> Python, JavaScript
 
 ## Tecnologias: 
 
