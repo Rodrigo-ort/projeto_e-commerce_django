@@ -15,4 +15,4 @@ Nossa motivação parte da importância que e-commerces tem para as empresas ult
 ??
 
 ## Ambientes de desenvolvimento:
-> Visual Studio Code & PyCharm
+> Visual Studio Code & PyCharm :computer:
