@@ -24,9 +24,12 @@
             <a class="nav-link" href="{{ products_list_url }}">Produtos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Taxas de entrega</a>
+          <a class="nav-link" href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:9cea159e-874c-49d6-8058-231e5a0e0aae">Taxas de entrega</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item">
+          <a class="nav-link" href="https://linktree.com.br/new/CESTASBSB">Árvore de Links</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Cestas & Acessórios
           </a>
@@ -40,7 +43,7 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Catálogo de Acessórios</a>
           </div>
-        </li>
+        </li> -->
         {% if request.user.is_authenticated %}
             <li class="nav-item {% if request.path == login_url %}active{% endif %}">
                 <a class="nav-link" href="{{ logout_url }}">Logout</a>

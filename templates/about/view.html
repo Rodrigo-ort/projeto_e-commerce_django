@@ -1,9 +1,36 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block content %}
 <div class="text-center">
     <h1>{{ title }}</h1>
-    <h2>{{ content }}</h2>
-    <h2>E tá funcionando super bem!!!</h2>
+
+    <img  id="logocentro" src="{% static 'img/logo.jpeg' %}"  height="50%" width="50%">
+
+
+    <p src="https://www.instagram.com/p/B8mGpnCl7l4/" >
+        <img alt="thais imagem" src="{% static 'img/thais.jpg' %}"  width="20%" 
+        style="
+        float:left; 
+        margin:20px;
+        border-width: 1px;
+        border-style:solid; 
+        "/>
+    </p>
+
+    <br><br><br>
+    <div>
+        <p style="font-family:Georgia,serif">	   	O cestas BSB &eacute; uma empresa criada por Thais Menezes em mar&ccedil;o de 2020.&nbsp; Nossa empresa oferece o conforto de prestigiar e levar a cada cliente o encanto, carinho e amor que temos em produzir as mais caprichosas cestas para os seus momentos especiais!</p>
+
+        <p style="font-family:Georgia,serif">		A criadora do projeto sempre empreendeu durante sua vida, e no período de pandemia decidiu empreender mais uma vez, com isso criou o CESTAS.BSB, uma empresa que fornece cestas em brasilía.</p>
+
+
+
+        <p style="font-family:Georgia,serif">		Nós amamos detalhes e damos um super valor pra deixar tudo bem caprichado e surpreender você e quem você ama!</p>
+
+        <p style="font-family:Georgia,serif">		Temos o maior cuidado em escolher os produtos que vocês receberão, a variedade de cestas e combinações só dependem da sua imaginação. Temos as cestas nos catalagos e claro que voce sempre pode dar aquele upgrade conforme voce preferir</p>
+
+    </div>
+
 </div>
 {% endblock %}

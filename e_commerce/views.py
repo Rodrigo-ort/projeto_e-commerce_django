@@ -15,16 +15,15 @@ def home_page(request):
 
 def about_page(request):
     context = {
-        "title": "About page",
-        "content": "Bem-vindo a About Page"
+        "title": "Sobre"
     }
     return render(request, "about/view.html", context)
 
 def contact_page(request):
     contact_form = ContactForm(request.POST or None)
     context = {
-        "title": "Contact Page",
-        "content": "Bem-vindo a Contact Page",
+        "title": "Contato",
+        "content": "Bem-vindo a Página de Contato",
         "form": contact_form
     }
     return render(request, "contact/view.html", context)
